@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  height: 100%;
+  overflow: auto;
+  background-color: #f2f0e4;
+  color: rgb(65, 64, 66);
+}
+html {
+  background-color: #f2f0e4;
+  margin-bottom: 60px;
+}
+.theTotal {
+  position: fixed;
+  top: 30;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.btn {
+  margin-top: 10px !important;
+  width: 145px;
+  margin-right: -5px !important;
+  margin-left: 6px !important;
+}
+
+.theListElement {
+  margin-top: 160px;
+  margin-right: 15px;
+  margin-left: -25px;
+}
